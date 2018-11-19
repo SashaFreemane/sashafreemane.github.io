@@ -12,6 +12,8 @@ a {
 }
 h1 {
 	font-size: 3em;
+	text-align: center;
+	margin: 0 2% 0 2%;
 }
 h2 {
 	font-size: 2em;
