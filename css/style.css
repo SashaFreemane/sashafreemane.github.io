@@ -16,6 +16,9 @@ h1 {
 h2 {
 	font-size: 2em;
 }
+h3 {
+	color:#47372a;
+}
 .top {
 	background-image: url(../img/fon1.jpg);
 	background-size: 70%;
@@ -24,7 +27,7 @@ h2 {
 .logo {
 	width: 10%;
 	margin: 20px 10px 0 10px;
-	border: solid 5px #47372a;
+	border: solid 5px ;
 	border-radius: 5px;
 }
 .title {
@@ -52,6 +55,10 @@ nav {
 	width: 12%;
 	right: 5px;
 	top: 55px;
+	transition: 2s;
+}
+.fixedmenu:hover {
+	transform: scale(1.1);
 }
 .bottle {
 	border: double #47372a 10px;
@@ -69,7 +76,7 @@ nav {
 	transition: 2s;
 }
 .sizebottle:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
 }
 .description {
 	border:double 10px #47372a;
@@ -113,5 +120,14 @@ footer {
 	background-color: #47372a;
 }
 .news {
-	margin: 10px 0 0 200px;
+	margin: 10px 0 10px 20px;
+
+}
+.picture {
+	float: right;
+	width: 50%;
+	margin: 0 5% 2% 2%;
+}
+.main {
+	width: 50%;
 }
