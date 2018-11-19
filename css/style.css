@@ -1,0 +1,117 @@
+body {
+	font-family: 'Istok Web', sans-serif;
+	background-color: #efe6d4;
+
+}
+a {
+	text-decoration: none;
+}
+.active {
+	font-weight: bold;
+	font-style: italic;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+}
+.top {
+	background-image: url(../img/fon1.jpg);
+	background-size: 70%;
+	background-position: center;
+}
+.logo {
+	width: 10%;
+	margin: 20px 10px 0 10px;
+	border: solid 5px #47372a;
+	border-radius: 5px;
+}
+.title {
+	font-size: 4em;
+	font-weight: bold;
+	color: #efe6d4;
+	text-shadow: 2px 2px 3px black, 0 0 1em red;
+}
+nav {
+	background-color: #47372a;
+	font-size: 1.5em; 
+	text-align: center;
+	word-spacing: 2em;
+}
+.menu {
+	color: #efe6d4;
+}
+/*.start {
+	position: fixed;
+	width: 100%;
+    top: 2px;
+}*/
+.fixedmenu {
+	position: fixed;
+	width: 12%;
+	right: 5px;
+	top: 55px;
+}
+.bottle {
+	border: double #47372a 10px;
+	border-radius: 10px;
+	color: #47372a;
+    width: 30%;
+    margin:10px;
+    padding: 20px;
+}
+.allbottle {
+    display: flex;	
+}
+.sizebottle {
+	width: 100px;
+	transition: 2s;
+}
+.sizebottle:hover {
+	transform: scale(1.1);
+}
+.description {
+	border:double 10px #47372a;
+	border-radius: 10px;
+	width: 50%;
+	padding: 15px;
+	margin: 5%;
+}
+aside {
+	border: double 10px #47372a;
+	border-radius: 10px;
+	width: 30%;
+	float: right;
+	padding: 15px;
+	margin:5%;
+}
+form {
+	border: double 10px #47372a;
+	border-radius: 10px;
+	margin: 5%;
+	width: 30%;
+	float: right;
+    font-size: 1.2em;
+}
+img {
+	margin-left: 10%;
+}
+.go {
+	font-size: 1.2em;
+	float: right;
+	background-color: #efe6d4;
+	color: #47372a;
+	border: solid 5px #47372a;
+	border-radius: 20px;
+}
+footer {
+	font-size: 1.2em;
+	text-align: center;
+	color: #efe6d4;
+	font-style: italic;
+	background-color: #47372a;
+}
+.news {
+	margin: 10px 0 0 200px;
+}
